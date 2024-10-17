@@ -170,3 +170,12 @@ a{
 #btn>button:hover{
     cursor: pointer;
 }
+.image34{
+    height: 560px;
+    width: 430px;
+    border: 2px solid black;
+    background-image: url(images/1729154661018.png);
+    background-size: 429px 561px;
+    background-position:no-repeat;
+    margin-left: 10px;
+}
