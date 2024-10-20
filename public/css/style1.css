@@ -34,8 +34,10 @@
     border: 1px solid rgb(65, 58, 58);
     color:whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.2s;
 }
 #search_button:hover{
+    transform:scale(1.09);
     background-color: yellow;
     color:black;
     cursor: pointer;
@@ -46,6 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
     /* border: 2px solid black; */
 }
@@ -55,6 +58,7 @@
     width: 400px;
     background-color: black;
     border-radius: 9px;
+    margin-bottom: 85px;
     /* border: 2px solid black; */
 }
 #p_tag{
@@ -88,3 +92,6 @@
     height: 100%;
     width:100%;
 }
+
+    
+

@@ -6,7 +6,7 @@ const getinfo = async (event)=>{
     event.preventDefault();
     let cityname = search.value;
     if(cityname === ''){
-        p_tag.innerText = `pls write the name before search`;
+        p_tag.innerText = `Please write the name before search`;
     }
     else{
         try{            
@@ -38,7 +38,7 @@ weather_image.src = '../css/images/cloudpic.png';
             console.log(arrData);
         }
         catch{
-            p_tag.innerText = `pls write the city name properly`;
+            p_tag.innerText = `Please write the city name properly`;
         }
 
 

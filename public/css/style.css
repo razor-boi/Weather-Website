@@ -122,8 +122,9 @@ nav{
     display:flex;
     justify-content: space-around;
     align-items: center; 
-    
-}
+}    
+
+
 #logo_li{
     font-size: 25px;
 }
@@ -162,13 +163,18 @@ a{
     height: 46px;
     width: 115px;
     background-color: red;
-    border: 2px solid black;
-    border-radius: 90px;
+    border: 3px solid black;
+    border-radius: 10px;
     color:white;
+    transition: transform 0.2s;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #btn>button:hover{
+    transform: scale(1.09);
     cursor: pointer;
+    background-color: black;
+    color:yellow;
+    
 }
 .image34{
     height: 560px;
@@ -178,4 +184,27 @@ a{
     background-size: 429px 561px;
     background-position:no-repeat;
     margin-left: 10px;
+}
+#home{
+    transition: transform 0.2s;
+}
+#weather{
+    transition: transform 0.2s;
+}
+#about{
+    transition: transform 0.2s;
+}
+#home:hover{
+    transform: scale(1.2); 
+    color: yellow;
+}
+
+#weather:hover{
+    transform: scale(1.2);  
+    color: yellow;
+}
+
+#about:hover{
+    transform: scale(1.2);  
+    color: yellow;
 }
