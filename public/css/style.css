@@ -196,7 +196,7 @@ a{
 }
 #home:hover{
     transform: scale(1.2); 
-    color: yellow;
+    color: yellow; 
 }
 
 #weather:hover{

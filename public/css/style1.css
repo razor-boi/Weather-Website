@@ -58,7 +58,7 @@
     width: 400px;
     background-color: black;
     border-radius: 9px;
-    margin-bottom: 85px;
+    margin-bottom: 157px;
     /* border: 2px solid black; */
 }
 #p_tag{
@@ -92,6 +92,10 @@
     height: 100%;
     width:100%;
 }
-
+.picture{
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-size: cover cover;
+}
     
 

@@ -1,4 +1,4 @@
-const express = require("express");``
+const express = require("express");
 const app = express();
 const port = process.env.PORT || 8000 ;
 const path= require("path");
@@ -19,7 +19,7 @@ app.use(express.static(staticpath));
 // hbs.registerPartials(partials_path);
 
 // Routing
-app.get("/" ,(req,res)=>{
+app.get("/index",(req,res)=>{
     res.render("index");
 })
 app.get("/about",(req,res)=>{

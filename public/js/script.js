@@ -10,10 +10,11 @@ const getinfo = async (event)=>{
     }
     else{
         try{            
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=565df217d8a66df72d4e8582e7eb2c7e`
-
+            const url =`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=565df217d8a66df72d4e8582e7eb2c7e`
+            
             const response = await fetch(url);
             const data = await response.json();
+            //`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=`
             
             const arrData = [data];
 
