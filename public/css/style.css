@@ -8,7 +8,7 @@ nav{
     height: 60px;
     width: 100%;
     /* border:2px solid black; */
-    background-color: black;
+    background-color:rgb(255, 255, 0);
     display:flex; 
     align-items: center; 
     justify-content :space-around;
@@ -21,9 +21,9 @@ nav{
     margin-right: 60px;
     position: absolute;
     left:126px;
-    border-top-color: white ;
+    border-top-color: yellow;
     border-left-color:black ;
-    border-bottom-color:white ;
+    border-bottom-color:yellow ;
     border-right-color:black ;
     animation: spin .6s linear infinite;
 }
@@ -72,9 +72,9 @@ nav{
     position: absolute;
     left:545px;
     border-radius:60%;
-    border-top-color: white ;
+    border-top-color: yellow ;
     border-left-color:black ;
-    border-bottom-color:white ;
+    border-bottom-color:yellow ;
     border-right-color:black ;
     animation: spin2 .6s linear infinite;
 }
@@ -130,8 +130,9 @@ nav{
 }
 li{
     list-style: none;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: tomato;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size :17px;
 }
 a{
     text-decoration: none;
@@ -194,17 +195,24 @@ a{
 #about{
     transition: transform 0.2s;
 }
+#middleware{
+    transition: transform 0.2s;
+}
 #home:hover{
     transform: scale(1.2); 
-    color: yellow; 
+    color: black; 
 }
 
 #weather:hover{
     transform: scale(1.2);  
-    color: yellow;
+    color: black;
 }
 
 #about:hover{
     transform: scale(1.2);  
-    color: yellow;
+    color: black;
+}
+#middleware:hover{
+    transform: scale(1.2); 
+    color: black;
 }

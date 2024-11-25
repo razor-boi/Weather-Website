@@ -28,6 +28,9 @@ app.get("/about",(req,res)=>{
 app.get('/weather' ,(req,res)=>{
     res.render('weather');
 })
+app.get("/midddleware" , (req,res)=>{
+    res.render("midddleware");
+})
 
 app.listen(port ,(req,res)=>{
     console.log(`Listening at the port ${port}`);
