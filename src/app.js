@@ -19,7 +19,7 @@ app.use(express.static(staticpath));
 // hbs.registerPartials(partials_path);
 
 // Routing
-app.get("/index",(req,res)=>{
+app.get("/",(req,res)=>{
     res.render("index");
 })
 app.get("/about",(req,res)=>{
@@ -28,9 +28,9 @@ app.get("/about",(req,res)=>{
 app.get('/weather' ,(req,res)=>{
     res.render('weather');
 })
-app.get("/midddleware" , (req,res)=>{
-    res.render("midddleware");
-})
+// app.get("/midddleware" , (req,res)=>{
+//     res.render("midddleware");
+// })
 
 app.listen(port ,(req,res)=>{
     console.log(`Listening at the port ${port}`);
